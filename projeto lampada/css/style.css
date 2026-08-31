@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(violet, red, blue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central{
+    width: 400px;
+    background: linear-gradient(rgb(255, 78, 122),red, purple);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.central button{
+    width: 100px;
+    background: linear-gradient(rgb(155, 3, 160), rgba(174, 19, 221, 0.87));
+    border: none;
+    cursor: pointer;
+     
+}
+.butoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
