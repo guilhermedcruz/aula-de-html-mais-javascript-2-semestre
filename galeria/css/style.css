@@ -1,0 +1,44 @@
+body{
+    background-image: url(81d511e0-a034-4847-9fbf-73ab5306dc05\ \(1\).jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.central{
+    width: 500px;
+    background: linear-gradient(to bottom,#111,#666);
+    padding: 10px;
+    border-radius: 15px;
+}
+.central button{
+    width: 100px;
+    background: linear-gradient(white,gray);
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 10px;
+    margin: 0 6px;
+
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.X{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
