@@ -1,0 +1,100 @@
+body{
+    background: url(/img/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+.central{
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 600px;
+    height: 40vh;
+    border: 2px solid gold;
+}
+.container-datas{
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center
+    ;
+}
+.box-data{
+    flex: 1;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+.box-horario{
+    flex: 1;
+    border-radius: 8px;
+    padding: 10px 0;
+    border: 1.5px solid orange;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: 1.5;
+    background-color: ;
+    
+}
+.central span{
+    color: white;
+}
+h1{
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#horas, #minutos, #segundos, .relogio{
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+#data{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 4px;
+}
+.box-data h2{
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+.box-data span{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.texto-dourado {
+  background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0px 0px 6px rgba(255, 215, 0, 0.6));
+  font-weight: bold;
+}
+
+.texto-prateado-claro {
+  
+  background: linear-gradient(135deg, #E6E6E6 0%, #FFFFFF 25%, #CCCCCC 50%, #FFFFFF 75%, #E6E6E6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  
+  filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.9));
+  font-weight: bold;
+}
